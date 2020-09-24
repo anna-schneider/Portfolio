@@ -1,0 +1,44 @@
+header {
+	font-size: 44px;
+	font-weight: 600;
+	margin-top: 35px;
+}
+
+.header {
+	font-family: "Montserrat", sans-serif;
+	border-top: #202020 solid 2px;
+	border-bottom: #202020 solid 2px;
+	margin: 30px 80px 15px 80px;
+	width: 100%;
+}
+
+.name {
+	position: relative;
+	top: 20%;
+	margin: 30px 80px 15px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);
+}
+
+.typewriter-anime {
+	animation: typewriter 4s steps(44) 1s 1 normal both,
+		blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+	from {
+		width: 0;
+	}
+	to {
+		width: 24em;
+	}
+}
+@keyframes blinkTextCursor {
+	from {
+		border-right-color: rgba(255, 255, 255, 0.75);
+	}
+	to {
+		border-right-color: transparent;
+	}
+}
