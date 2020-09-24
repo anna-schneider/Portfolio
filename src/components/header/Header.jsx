@@ -7,9 +7,8 @@ export default function Header() {
 		<>
 			<div className="header">
 				<header className="name typewriter-anime">ANNA SCHNEIDER</header>
-				<h2 className="title">Software Engineer</h2>
+				<h2 className="title typewriter-anime2">Full Stack Developer</h2>
 			</div>
-			{/* <p className="name typewriter-anime">My name, my title</p> */}
 		</>
 	)
 }

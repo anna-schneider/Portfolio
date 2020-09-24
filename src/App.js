@@ -7,7 +7,7 @@ function App() {
 	return (
 		<div className="App">
 			<Header />
-			{/* <div className="profile-contact-container">
+			<div className="profile-contact-container">
 				<div className="profile-container">
 					<h3 className="profile">PROFILE</h3>
 					<p>
@@ -23,7 +23,7 @@ function App() {
 				<div className="contact-container">
 					<h3 className="contact">CONTACT</h3>
 				</div>
-			</div> */}
+			</div>
 		</div>
 	)
 }

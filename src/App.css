@@ -1,11 +1,10 @@
 .App {
-	display: flex;
+	/* display: flex; */
 	font-family: "Montserrat", sans-serif;
 }
 
 .profile,
-.contact,
-.title {
+.contact {
 	font-size: 30px;
 	font-weight: 400;
 }
@@ -13,13 +12,19 @@
 .profile-contact-container {
 	display: flex;
 	align-self: center;
+	margin: 0 80px;
+	padding-bottom: 22px;
+	border-bottom: #202020 solid 2px;
 }
 
 .profile-container {
 	width: 70%;
-	margin-left: 60px;
+	margin: 0 10px;
+	padding-right: 16px;
+	border-right: #202020 solid 2px;
 }
 
 .contact-container {
 	width: 30%;
+	padding-left: 16px;
 }
