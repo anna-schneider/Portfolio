@@ -1,5 +1,5 @@
 header {
-	font-size: 44px;
+	font-size: 75px;
 	font-weight: 600;
 	margin-top: 35px;
 }
@@ -8,8 +8,7 @@ header {
 	font-family: "Montserrat", sans-serif;
 	border-top: #202020 solid 2px;
 	border-bottom: #202020 solid 2px;
-	margin: 30px 80px 15px 80px;
-	width: 100%;
+	margin-top: 30px;
 }
 
 .name,
@@ -24,7 +23,7 @@ header {
 
 .title {
 	padding-bottom: 8px;
-	font-size: 30px;
+	font-size: 45px;
 	font-weight: 400;
 }
 

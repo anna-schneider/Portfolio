@@ -3,16 +3,28 @@
 	font-family: "Montserrat", sans-serif;
 }
 
+.landing {
+	background-color: rgb(117, 200, 174);
+	padding: 20px 0;
+}
+
+.brand {
+	font-size: 30px;
+}
+
 .profile,
 .contact {
-	font-size: 30px;
+	font-size: 45px;
 	font-weight: 400;
+}
+
+.top-level-container {
+	margin: 0 80px;
 }
 
 .profile-contact-container {
 	display: flex;
 	align-self: center;
-	margin: 0 80px;
 	padding-bottom: 22px;
 	border-bottom: #202020 solid 2px;
 }
@@ -27,4 +39,53 @@
 .contact-container {
 	width: 30%;
 	padding-left: 16px;
+}
+
+.triangle .portfolio {
+	font-size: 50px;
+	font-weight: 400;
+	margin: -140px 0 0 -100px;
+	color: azure;
+}
+
+.triangle {
+	margin: 30px 80px;
+	border-color: rgb(229, 119, 30) transparent;
+	border-style: solid;
+	border-width: 170px 490px 0px 490px;
+	height: 0px;
+	width: 0px;
+}
+
+.triangle2 {
+	margin: 30px 30% 30px 0;
+	position: relative;
+	display: flex;
+	width: 70%;
+}
+
+.triangle2 .portfolio {
+	font-size: 50px;
+	font-weight: 400;
+	color: azure;
+	position: relative;
+	z-index: 2;
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.triangle2::before {
+	content: " ";
+	position: absolute;
+	border-color: rgb(229, 119, 30) transparent;
+	border-style: solid;
+	border-width: 170px 490px 0px 490px;
+	display: block;
+	height: 0px;
+	width: 0px;
+	z-index: 1;
+	left: 15%;
+	right: 50%;
+	margin: 0 -15%;
 }
