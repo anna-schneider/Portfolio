@@ -23,7 +23,18 @@ function App() {
 					</div>
 					<div className="contact-container">
 						<h3 className="contact">CONTACT</h3>
-						<div className="git"></div>
+						<span className="icon-stack">
+							<i className="icon-github-sign icon-large icon-stack-base"></i>
+							<a
+								href="https://www.linkedin.com/in/anna-schneider-0a0772113/"
+								target="_blank"
+							></a>
+						</span>
+
+						<span className="icon-stack">
+							<i className="icon-linkedin-sign icon-large icon-stack-base"></i>
+							<a href="https://github.com/anna-schneider" target="_blank"></a>
+						</span>
 					</div>
 				</div>
 				{/* <div className="triangle">
