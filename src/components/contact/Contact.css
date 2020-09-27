@@ -1,0 +1,18 @@
+.fa-stack {
+	height: 60px;
+}
+
+.icon-stack {
+	height: 150px;
+	margin: 30%;
+}
+
+.icon-stack1 {
+	padding-bottom: 15px;
+}
+
+.icon-stack1,
+.icon-stack2 {
+	display: flex;
+	justify-content: space-around;
+}

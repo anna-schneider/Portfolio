@@ -1,0 +1,20 @@
+.info-container {
+	background-color: #264653;
+	height: 750px;
+	margin-top: 50px;
+}
+
+.project-title {
+	font-family: "Montserrat", sans-serif;
+	font-size: 45px;
+	font-weight: 400;
+	background-color: #2a9d8f;
+	height: 90px;
+	margin: 10px 20px 0 20px;
+	text-align: center;
+}
+
+.description {
+	width: 30%;
+	font-size: 22px;
+}

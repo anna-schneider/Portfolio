@@ -1,0 +1,12 @@
+button {
+	/* display: flex; */
+	flex-direction: row;
+	height: 50px;
+	width: 150px;
+	background-color: #f4a261;
+}
+
+.project-btns {
+	display: flex;
+	/* flex-direction: row; */
+}

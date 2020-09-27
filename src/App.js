@@ -1,6 +1,8 @@
 import React from "react"
 
 import "./App.css"
+import Contact from "./components/contact/Contact"
+import Container from "./components/container/Container"
 import Header from "./components/header/Header"
 
 function App() {
@@ -23,18 +25,7 @@ function App() {
 					</div>
 					<div className="contact-container">
 						<h3 className="contact">CONTACT</h3>
-						<span className="icon-stack">
-							<i className="icon-github-sign icon-large icon-stack-base"></i>
-							<a
-								href="https://www.linkedin.com/in/anna-schneider-0a0772113/"
-								target="_blank"
-							></a>
-						</span>
-
-						<span className="icon-stack">
-							<i className="icon-linkedin-sign icon-large icon-stack-base"></i>
-							<a href="https://github.com/anna-schneider" target="_blank"></a>
-						</span>
+						<Contact />
 					</div>
 				</div>
 				{/* <div className="triangle">
@@ -44,6 +35,26 @@ function App() {
 					<div className="triangle2">
 						<h2 className="portfolio">Portfolio</h2>
 					</div>
+					<Container
+						projectTitle="Dad or Dud"
+						description="Dad or Dud is a responsive single page application, leveraged a
+				third-party API to provide a gamified dad joke experience"
+					/>
+					<Container
+						projectTitle="Fortunately"
+						description="Dad or Dud is a responsive single page application, leveraged a
+				third-party API to provide a gamified dad joke experience"
+					/>
+					<Container
+						projectTitle="Black Girls Code"
+						description="Dad or Dud is a responsive single page application, leveraged a
+      third-party API to provide a gamified dad joke experience"
+					/>
+					<Container
+						projectTitle="Remote Control"
+						description="Dad or Dud is a responsive single page application, leveraged a
+      third-party API to provide a gamified dad joke experience"
+					/>
 				</div>
 			</div>
 		</div>
