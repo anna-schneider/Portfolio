@@ -17,8 +17,8 @@ export default function Container(props) {
 						<i className={icon + " tech-icon"}></i>
 					))}
 				</div>
-				<Button content="See the Code" />
-				<Button content="See the Live Site" />
+				<Button content="See the Code" link={props.codeLink} />
+				<Button content="See the Live Site" link={props.liveLink} />
 			</div>
 			<div className="project-container"></div>
 		</div>

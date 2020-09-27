@@ -36,8 +36,8 @@ function App() {
 						<h2 className="portfolio">Portfolio</h2>
 					</div>
 					<Container
-						projectTitle="Dad or Dud"
-						description="Dad or Dud is a responsive single page application, leveraged a
+						projectTitle="Dad or Dud?"
+						description="Knock, knock. Who's there? It's 'Dad or Dud?', the responsive single page application, leveraged a
 		third-party API to provide a gamified dad joke experience"
 						icons={[
 							"devicon-javascript-plain colored",
@@ -46,6 +46,8 @@ function App() {
 							"devicon-jquery-plain colored",
 							"devicon-git-plain colored",
 						]}
+						liveLink=""
+						codeLink="https://github.com/anna-schneider/Dad-or-Dud"
 					/>
 					<Container
 						projectTitle="Fortunately"
@@ -57,6 +59,8 @@ function App() {
 							"devicon-react-original colored",
 							"devicon-git-plain colored",
 						]}
+						liveLink="https://fortunately.netlify.app/"
+						codeLink="https://github.com/anna-schneider/Fortunately"
 					/>
 					<Container
 						projectTitle="Black Girls Code"
@@ -68,6 +72,8 @@ function App() {
 							"devicon-express-original",
 							"devicon-git-plain colored",
 						]}
+						liveLink="https://blackgirlscodep3.netlify.app/"
+						codeLink="https://github.com/anna-schneider/Black-Girls-Code-P3"
 					/>
 					<Container
 						projectTitle="Remote Control"
@@ -80,6 +86,8 @@ After six days and countless cups of coffee, Remote Control was built using Rail
 							"devicon-postgresql-plain colored",
 							"devicon-react-original colored",
 						]}
+						liveLink="https://remote-control-fullstack.netlify.app/"
+						codeLink="https://github.com/anna-schneider/Remote-Control"
 					/>
 				</div>
 			</div>
