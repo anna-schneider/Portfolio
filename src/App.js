@@ -49,8 +49,7 @@ function App() {
 					/>
 					<Container
 						projectTitle="Fortunately"
-						description="Dad or Dud is a responsive single page application, leveraged a
-				third-party API to provide a gamified dad joke experience"
+						description="Bringing the boadwalk to your phone (mobile first, right?), Fortunately is a fortune-telling app built with React and a custom API via AirTable."
 						icons={[
 							"devicon-javascript-plain colored",
 							"devicon-css3-plain colored",
@@ -61,8 +60,7 @@ function App() {
 					/>
 					<Container
 						projectTitle="Black Girls Code"
-						description="Dad or Dud is a responsive single page application, leveraged a
-	  third-party API to provide a gamified dad joke experience"
+						description="A collaboration with a UX design team, our group of four devs assembled a full-stack web app in alignment to the blueprints from our partners."
 						icons={[
 							"devicon-react-original colored",
 							"devicon-nodejs-plain colored",
@@ -73,8 +71,8 @@ function App() {
 					/>
 					<Container
 						projectTitle="Remote Control"
-						description="Dad or Dud is a responsive single page application, leveraged a
-	  third-party API to provide a gamified dad joke experience"
+						description={`Remote Control is a viewing party app that aids in both household harmony, and staying connected. Friends and family can short list the movies they're interested in watching, and then rank them to decide a winner.
+After six days and countless cups of coffee, Remote Control was built using Rails, PostgreSQL and React on top of some home-spun CSS and JS`}
 						icons={[
 							"devicon-git-plain colored",
 							"devicon-rails-plain colored",
