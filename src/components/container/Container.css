@@ -18,3 +18,19 @@
 	width: 30%;
 	font-size: 22px;
 }
+
+.detail-container {
+	margin-left: 50px;
+}
+
+.tech-icons {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-around; */
+	flex-wrap: wrap;
+	width: 199px;
+}
+
+.tech-icon {
+	font-size: 66px;
+}

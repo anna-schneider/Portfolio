@@ -5,7 +5,9 @@ import "./Button.css"
 export default function Button(props) {
 	return (
 		<div className="project-btns">
-			<button>{props.content}</button>
+			<button className="hvr-grow-rotate hvr-grow-rotate-ccw">
+				{props.content}
+			</button>
 		</div>
 	)
 }

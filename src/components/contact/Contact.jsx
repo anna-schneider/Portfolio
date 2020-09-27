@@ -5,20 +5,22 @@ import "./Contact.css"
 export default function Contact(props) {
 	return (
 		<div>
-			{/* <a
-				href="https://www.linkedin.com/in/anna-schneider-0a0772113/"
-				target="_blank"
-				rel="noopener noreferrer"
-      ></a>
-      <a
-				href="https://github.com/anna-schneider"
-				target="_blank"
-				rel="noopener noreferrer"
-			></a> */}
 			<div className="icon-stack">
 				<div className="icon-stack1">
-					<i className="fa fa-github fa-4x" aria-hidden="true"></i>
-					<i className="fa fa-linkedin-square fa-4x " aria-hidden="true"></i>
+					<a
+						href="https://github.com/anna-schneider"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<i className="fa fa-github fa-4x" aria-hidden="true"></i>
+					</a>
+					<a
+						href="https://www.linkedin.com/in/anna-schneider-0a0772113/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<i className="fa fa-linkedin-square fa-4x " aria-hidden="true"></i>
+					</a>
 				</div>
 
 				<div className="icon-stack2">

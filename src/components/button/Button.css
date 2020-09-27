@@ -1,12 +1,43 @@
 button {
 	/* display: flex; */
-	flex-direction: row;
+	/* flex-direction: row; */
+	font-family: "Montserrat", sans-serif;
 	height: 50px;
 	width: 150px;
 	background-color: #f4a261;
 }
 
 .project-btns {
-	display: flex;
-	/* flex-direction: row; */
+	display: inline;
+	margin-left: 10px;
+}
+
+.hvr-grow-rotate,
+.hvr-grow-rotate-cw,
+.hvr-grow-rotate-ccw {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+}
+.hvr-grow-rotate:hover,
+.hvr-grow-rotate-cw:hover,
+.hvr-grow-rotate:focus,
+.hvr-grow-rotate-cw:focus,
+.hvr-grow-rotate:active,
+.hvr-grow-rotate-cw:active {
+	-webkit-transform: scale(1.1) rotate(4deg);
+	transform: scale(1.1) rotate(4deg);
+}
+
+.hvr-grow-rotate-ccw:hover,
+.hvr-grow-rotate-ccw:focus,
+.hvr-grow-rotate-ccw:active {
+	-webkit-transform: scale(1.1) rotate(-4deg);
+	transform: scale(1.1) rotate(-4deg);
 }

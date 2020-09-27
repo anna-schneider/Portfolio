@@ -38,22 +38,50 @@ function App() {
 					<Container
 						projectTitle="Dad or Dud"
 						description="Dad or Dud is a responsive single page application, leveraged a
-				third-party API to provide a gamified dad joke experience"
+		third-party API to provide a gamified dad joke experience"
+						icons={[
+							"devicon-javascript-plain colored",
+							"devicon-html5-plain colored",
+							"devicon-css3-plain colored",
+							"devicon-jquery-plain colored",
+							"devicon-git-plain colored",
+						]}
 					/>
 					<Container
 						projectTitle="Fortunately"
 						description="Dad or Dud is a responsive single page application, leveraged a
 				third-party API to provide a gamified dad joke experience"
+						icons={[
+							"devicon-javascript-plain colored",
+							"devicon-css3-plain colored",
+							"devicon-html5-plain colored",
+							"devicon-react-original colored",
+							"devicon-git-plain colored",
+						]}
 					/>
 					<Container
 						projectTitle="Black Girls Code"
 						description="Dad or Dud is a responsive single page application, leveraged a
-      third-party API to provide a gamified dad joke experience"
+	  third-party API to provide a gamified dad joke experience"
+						icons={[
+							"devicon-react-original colored",
+							"devicon-nodejs-plain colored",
+							"devicon-mongodb-plain colored",
+							"devicon-express-original",
+							"devicon-git-plain colored",
+						]}
 					/>
 					<Container
 						projectTitle="Remote Control"
 						description="Dad or Dud is a responsive single page application, leveraged a
-      third-party API to provide a gamified dad joke experience"
+	  third-party API to provide a gamified dad joke experience"
+						icons={[
+							"devicon-git-plain colored",
+							"devicon-rails-plain colored",
+							"devicon-ruby-plain colored",
+							"devicon-postgresql-plain colored",
+							"devicon-react-original colored",
+						]}
 					/>
 				</div>
 			</div>
