@@ -1,5 +1,5 @@
-a,
-a:visited {
+a.button,
+a.button:visited {
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
 	height: 50px;

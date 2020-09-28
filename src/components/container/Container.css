@@ -2,16 +2,21 @@
 	background-color: #264653;
 	height: 750px;
 	margin-top: 50px;
+	padding-top: 15px;
 }
 
 .project-title {
 	font-family: "Montserrat", sans-serif;
 	font-size: 45px;
 	font-weight: 600;
-	background-color: #2a9d8f;
+	color: rgb(144, 194, 202);
+	text-shadow: -1px 0 #e76f51, 0 1px black, 1px 0 black, 0 -1px black;
+	background-color: #264653;
 	height: 90px;
-	margin: 10px 20px 0 20px;
+	margin: 0 20px;
 	text-align: center;
+	padding-top: 20px;
+	border: #2a9d8f solid 7px;
 }
 
 .description {
