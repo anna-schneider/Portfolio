@@ -5,6 +5,7 @@
 .icon-stack {
 	height: 150px;
 	margin: 30%;
+	margin-top: 50px;
 }
 
 .icon-stack1 {
@@ -19,6 +20,4 @@
 
 .fa {
 	color: #264653;
-	/* color: rgb(77, 128, 151); */
-	/* color: rgb(240, 141, 97); */
 }

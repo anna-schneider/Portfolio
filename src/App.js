@@ -77,7 +77,7 @@ function App() {
 					/>
 					<Container
 						projectTitle="Remote Control"
-						description="Remote Control is a viewing party app that aids in both household harmony, and staying connected. Friends and family can short list the movies they're interested in watching, and then rank them to decide a winner.
+						description="Remote Control is a remote viewing party app that aids in household harmony, and staying connected. Friends and family can short list movies, and then rank them to decide a winner.
 After six days and oceans of coffee, Remote Control was built using Rails, PostgreSQL and React on top of some home-spun CSS and JS."
 						icons={[
 							"devicon-postgresql-plain colored",

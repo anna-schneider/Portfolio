@@ -9,7 +9,7 @@
 }
 
 .brand {
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .contact {
@@ -31,6 +31,7 @@
 	align-self: center;
 	padding-bottom: 22px;
 	border-bottom: #202020 solid 2px;
+	height: 400px;
 }
 
 .profile-container {
@@ -52,7 +53,24 @@
 	color: azure;
 }
 
-.triangle {
+.triangle2 {
+	font-size: 22px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: radial-gradient(#2a9d8f, rgb(225, 91, 57)) 1;
+	background-color: #f4a261;
+	text-align: center;
+	color: #264653;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 25px;
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+		0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+		0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+/* .triangle {
 	margin: 30px 80px;
 	border-color: rgb(229, 119, 30) transparent;
 	border-style: solid;
@@ -66,9 +84,9 @@
 	position: relative;
 	display: flex;
 	width: 70%;
-}
+} */
 
-.triangle2 .portfolio {
+/* .triangle2 .portfolio {
 	font-size: 50px;
 	font-weight: 400;
 	color: azure;
@@ -92,4 +110,4 @@
 	left: 15%;
 	right: 50%;
 	margin: 0 -15%;
-}
+} */
