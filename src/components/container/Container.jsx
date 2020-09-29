@@ -27,7 +27,7 @@ export default function Container(props) {
 					</div>
 				</div>
 				<div className="detail-container-carousel">
-					<AwesomeSlider animation="foldOutAnimation">
+					<AwesomeSlider animation="foldOutAnimation" bullets={false}>
 						{images.map((path) => (
 							<div data-src={path} />
 						))}
