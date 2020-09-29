@@ -31,7 +31,13 @@ export default function Contact(props) {
 					>
 						<i className="fa fa-file fa-3x" aria-hidden="true"></i>
 					</a>
-					<i className="fa fa-envelope fa-3x" aria-hidden="true"></i>
+					<a
+						href="mailto: anna.schneiderm@gmail.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<i className="fa fa-envelope fa-3x " aria-hidden="true"></i>
+					</a>
 				</div>
 			</div>
 		</div>
