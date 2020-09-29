@@ -49,11 +49,11 @@ const containerData = [
 		description:
 			"A collaboration with a UX design team, our group of four devs assembled a full-stack web app in alignment to the blueprints from our partners.",
 		icons: [
-			"devicon-react-original-wordmark colored",
-			"devicon-nodejs-plain-wordmark colored",
-			"devicon-mongodb-plain-wordmark colored",
 			"devicon-express-original-wordmark",
 			"devicon-git-plain-wordmark colored",
+			"devicon-nodejs-plain-wordmark colored",
+			"devicon-react-original-wordmark colored",
+			"devicon-mongodb-plain-wordmark colored",
 		],
 		liveLink: "https://blackgirlscodep3.netlify.app/",
 		codeLink: "https://github.com/anna-schneider/Black-Girls-Code-P3",

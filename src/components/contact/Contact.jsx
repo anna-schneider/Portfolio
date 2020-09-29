@@ -24,7 +24,13 @@ export default function Contact(props) {
 				</div>
 
 				<div className="icon-stack2">
-					<i className="fa fa-file fa-3x" aria-hidden="true"></i>
+					<a
+						href="https://drive.google.com/file/d/1EMKNUJrdTnEZOw0CpOBttm09AB3QVkSM/view?usp=sharing"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<i className="fa fa-file fa-3x" aria-hidden="true"></i>
+					</a>
 					<i className="fa fa-envelope fa-3x" aria-hidden="true"></i>
 				</div>
 			</div>
