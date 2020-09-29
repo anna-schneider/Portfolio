@@ -50,3 +50,12 @@
 	display: flex;
 	justify-content: left;
 }
+
+.tech-icon {
+	margin: 5px 5px;
+}
+
+.tech-icons {
+	height: 150px;
+	width: 250px;
+}

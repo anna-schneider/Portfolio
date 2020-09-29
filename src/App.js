@@ -9,7 +9,7 @@ import blue1 from "./assets/images/blue1.png"
 import blue2 from "./assets/images/blue2.png"
 import circle from "./assets/images/circle.png"
 import fdesktop from "./assets/images/fortuneDsk.png"
-import fmobile from "./assets/images/fortuneMobile.png"
+import fmobile from "./assets/images/fortuneMobile.jpeg"
 import ftablet from "./assets/images/fortuneTablet.png"
 // import fresults from "./assets/images/fortuneResults.png"
 
@@ -20,10 +20,10 @@ const containerData = [
 			"Knock, knock. Who's there? It's 'Dad or Dud?', the responsive single page application, leveraged a third-party API to provide a gamified dad joke experience",
 		icons: [
 			"devicon-javascript-plain colored",
-			"devicon-html5-plain colored",
-			"devicon-css3-plain colored",
-			"devicon-jquery-plain colored",
-			"devicon-git-plain colored",
+			"devicon-css3-plain-wordmark colored",
+			"devicon-html5-plain-wordmark colored",
+			"devicon-jquery-plain-wordmark colored",
+			"devicon-git-plain-wordmark colored",
 		],
 		liveLink: "",
 		codeLink: "https://github.com/anna-schneider/Dad-or-Dud",
@@ -35,10 +35,10 @@ const containerData = [
 			"Bringing the boadwalk to your phone (mobile first, right?), Fortunately is a fortune-telling app built with React and a custom API via AirTable.",
 		icons: [
 			"devicon-javascript-plain colored",
-			"devicon-css3-plain colored",
-			"devicon-html5-plain colored",
-			"devicon-react-original colored",
-			"devicon-git-plain colored",
+			"devicon-css3-plain-wordmark colored",
+			"devicon-html5-plain-wordmark colored",
+			"devicon-react-original-wordmark colored",
+			"devicon-git-plain-wordmark colored",
 		],
 		liveLink: "https://fortunately.netlify.app/",
 		codeLink: "https://github.com/anna-schneider/Fortunately",
@@ -49,11 +49,11 @@ const containerData = [
 		description:
 			"A collaboration with a UX design team, our group of four devs assembled a full-stack web app in alignment to the blueprints from our partners.",
 		icons: [
-			"devicon-react-original colored",
-			"devicon-nodejs-plain colored",
-			"devicon-mongodb-plain colored",
-			"devicon-express-original",
-			"devicon-git-plain colored",
+			"devicon-react-original-wordmark colored",
+			"devicon-nodejs-plain-wordmark colored",
+			"devicon-mongodb-plain-wordmark colored",
+			"devicon-express-original-wordmark",
+			"devicon-git-plain-wordmark colored",
 		],
 		liveLink: "https://blackgirlscodep3.netlify.app/",
 		codeLink: "https://github.com/anna-schneider/Black-Girls-Code-P3",
@@ -64,11 +64,11 @@ const containerData = [
 		description:
 			"Remote Control is a remote viewing party app that aids in household harmony, and staying connected. Friends and family can short list movies, and then rank them to decide a winner. After six days and oceans of coffee, Remote Control was built using Rails, PostgreSQL and React on top of some home-spun CSS and JS.",
 		icons: [
-			"devicon-postgresql-plain colored",
-			"devicon-rails-plain colored",
-			"devicon-ruby-plain colored",
-			"devicon-git-plain colored",
-			"devicon-react-original colored",
+			"devicon-postgresql-plain-wordmark colored",
+			"devicon-rails-plain-wordmark colored",
+			"devicon-ruby-plain-wordmark colored",
+			"devicon-git-plain-wordmark colored",
+			"devicon-react-original-wordmark colored",
 		],
 		liveLink: "https://remote-control-fullstack.netlify.app/",
 		codeLink: "https://github.com/anna-schneider/Remote-Control",
