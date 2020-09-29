@@ -1,6 +1,6 @@
 .info-container {
 	background-color: #264653;
-	height: 750px;
+	min-height: 750px;
 	margin-top: 50px;
 	padding-top: 15px;
 	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -31,7 +31,7 @@
 .detail-container {
 	display: flex;
 	margin-left: 50px;
-	height: 550px;
+	min-height: 550px;
 }
 
 .detail-container-left {
@@ -68,4 +68,20 @@
 .made-with {
 	color: azure;
 	margin-top: 50px;
+}
+
+.aws-btn {
+	--slider-height-percentage: 60%;
+	--slider-transition-duration: 770ms;
+	--organic-arrow-thickness: 4px;
+	--organic-arrow-border-radius: 0px;
+	--organic-arrow-height: 40px;
+	--organic-arrow-color: #d5b1af;
+	--control-button-width: 10%;
+	--control-button-height: 25%;
+	--control-button-background: transparent;
+	--control-bullet-color: #fad0ce;
+	--control-bullet-active-color: #d5b1af;
+	--loader-bar-color: #851515;
+	--loader-bar-height: 6px;
 }

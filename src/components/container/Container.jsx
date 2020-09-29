@@ -3,11 +3,11 @@ import Button from "../button/Button"
 import AwesomeSlider from "react-awesome-slider"
 
 import "./Container.css"
-import "./Carousel/Carousel.css"
-// import "../../assets/images"
+import "react-awesome-slider/dist/styles.css"
+import "react-awesome-slider/dist/custom-animations/fold-out-animation.css"
 
 export default function Container(props) {
-	const { description, projectTitle, icons } = props
+	const { description, projectTitle, icons, images = [] } = props
 
 	return (
 		<div className="info-container">
@@ -27,11 +27,10 @@ export default function Container(props) {
 					</div>
 				</div>
 				<div className="detail-container-carousel">
-					<AwesomeSlider>
-						<div data-src="../../assets/images/fortuneDsk.png" />
-						<div data-src="../../assets/images/fortuneIpad.png" />
-						<div data-src="../../assets/images/fortuneMobile.png" />
-						<div data-src="/path/to/image-3.jpg" />
+					<AwesomeSlider animation="foldOutAnimation">
+						{images.map((path) => (
+							<div data-src={path} />
+						))}
 					</AwesomeSlider>
 				</div>
 			</div>

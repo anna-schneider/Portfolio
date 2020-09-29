@@ -4,6 +4,74 @@ import "./App.css"
 import Contact from "./components/contact/Contact"
 import Container from "./components/container/Container"
 import Header from "./components/header/Header"
+import orange from "./assets/images/orange1.png"
+import blue1 from "./assets/images/blue1.png"
+import blue2 from "./assets/images/blue2.png"
+import circle from "./assets/images/circle.png"
+import fortunateMobile from "./assets/images/FortunateMobile.png"
+
+const containerData = [
+	{
+		projectTitle: "Dad or Dud?",
+		description:
+			"Knock, knock. Who's there? It's 'Dad or Dud?', the responsive single page application, leveraged a third-party API to provide a gamified dad joke experience",
+		icons: [
+			"devicon-javascript-plain colored",
+			"devicon-html5-plain colored",
+			"devicon-css3-plain colored",
+			"devicon-jquery-plain colored",
+			"devicon-git-plain colored",
+		],
+		liveLink: "",
+		codeLink: "https://github.com/anna-schneider/Dad-or-Dud",
+		images: [fortunateMobile, blue1, blue2, circle],
+	},
+	{
+		projectTitle: "Fortunately",
+		description:
+			"Bringing the boadwalk to your phone (mobile first, right?), Fortunately is a fortune-telling app built with React and a custom API via AirTable.",
+		icons: [
+			"devicon-javascript-plain colored",
+			"devicon-css3-plain colored",
+			"devicon-html5-plain colored",
+			"devicon-react-original colored",
+			"devicon-git-plain colored",
+		],
+		liveLink: "https://fortunately.netlify.app/",
+		codeLink: "https://github.com/anna-schneider/Fortunately",
+		images: [orange, blue1, blue2, circle],
+	},
+	{
+		projectTitle: "Black Girls Code",
+		description:
+			"A collaboration with a UX design team, our group of four devs assembled a full-stack web app in alignment to the blueprints from our partners.",
+		icons: [
+			"devicon-react-original colored",
+			"devicon-nodejs-plain colored",
+			"devicon-mongodb-plain colored",
+			"devicon-express-original",
+			"devicon-git-plain colored",
+		],
+		liveLink: "https://blackgirlscodep3.netlify.app/",
+		codeLink: "https://github.com/anna-schneider/Black-Girls-Code-P3",
+		images: [orange, blue1, blue2, circle],
+	},
+	{
+		projectTitle: "Remote Control",
+		description:
+			"Remote Control is a remote viewing party app that aids in household harmony, and staying connected. Friends and family can short list movies, and then rank them to decide a winner. After six days and oceans of coffee, Remote Control was built using Rails, PostgreSQL and React on top of some home-spun CSS and JS.",
+		icons: [
+			"devicon-postgresql-plain colored",
+			"devicon-rails-plain colored",
+			"devicon-ruby-plain colored",
+			"devicon-git-plain colored",
+			"devicon-react-original colored",
+		],
+		liveLink: "https://remote-control-fullstack.netlify.app/",
+		codeLink: "https://github.com/anna-schneider/Remote-Control",
+		images: [orange, blue1, blue2, circle],
+	},
+]
 
 function App() {
 	return (
@@ -35,60 +103,9 @@ function App() {
 					<div className="triangle2">
 						<h2 className="portfolio">Portfolio</h2>
 					</div>
-					<Container
-						projectTitle="Dad or Dud?"
-						description="Knock, knock. Who's there? It's 'Dad or Dud?', the responsive single page application, leveraged a
-		third-party API to provide a gamified dad joke experience"
-						icons={[
-							"devicon-javascript-plain colored",
-							"devicon-html5-plain colored",
-							"devicon-css3-plain colored",
-							"devicon-jquery-plain colored",
-							"devicon-git-plain colored",
-						]}
-						liveLink=""
-						codeLink="https://github.com/anna-schneider/Dad-or-Dud"
-					/>
-					<Container
-						projectTitle="Fortunately"
-						description="Bringing the boadwalk to your phone (mobile first, right?), Fortunately is a fortune-telling app built with React and a custom API via AirTable."
-						icons={[
-							"devicon-javascript-plain colored",
-							"devicon-css3-plain colored",
-							"devicon-html5-plain colored",
-							"devicon-react-original colored",
-							"devicon-git-plain colored",
-						]}
-						liveLink="https://fortunately.netlify.app/"
-						codeLink="https://github.com/anna-schneider/Fortunately"
-					/>
-					<Container
-						projectTitle="Black Girls Code"
-						description="A collaboration with a UX design team, our group of four devs assembled a full-stack web app in alignment to the blueprints from our partners."
-						icons={[
-							"devicon-react-original colored",
-							"devicon-nodejs-plain colored",
-							"devicon-mongodb-plain colored",
-							"devicon-express-original",
-							"devicon-git-plain colored",
-						]}
-						liveLink="https://blackgirlscodep3.netlify.app/"
-						codeLink="https://github.com/anna-schneider/Black-Girls-Code-P3"
-					/>
-					<Container
-						projectTitle="Remote Control"
-						description="Remote Control is a remote viewing party app that aids in household harmony, and staying connected. Friends and family can short list movies, and then rank them to decide a winner.
-After six days and oceans of coffee, Remote Control was built using Rails, PostgreSQL and React on top of some home-spun CSS and JS."
-						icons={[
-							"devicon-postgresql-plain colored",
-							"devicon-rails-plain colored",
-							"devicon-ruby-plain colored",
-							"devicon-git-plain colored",
-							"devicon-react-original colored",
-						]}
-						liveLink="https://remote-control-fullstack.netlify.app/"
-						codeLink="https://github.com/anna-schneider/Remote-Control"
-					/>
+					{containerData.map((data) => (
+						<Container {...data} />
+					))}
 				</div>
 			</div>
 		</div>
