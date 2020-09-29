@@ -8,7 +8,10 @@ import orange from "./assets/images/orange1.png"
 import blue1 from "./assets/images/blue1.png"
 import blue2 from "./assets/images/blue2.png"
 import circle from "./assets/images/circle.png"
-import fortunateMobile from "./assets/images/FortunateMobile.png"
+import fdesktop from "./assets/images/fortuneDsk.png"
+import fmobile from "./assets/images/fortuneMobile.png"
+import ftablet from "./assets/images/fortuneTablet.png"
+// import fresults from "./assets/images/fortuneResults.png"
 
 const containerData = [
 	{
@@ -24,7 +27,7 @@ const containerData = [
 		],
 		liveLink: "",
 		codeLink: "https://github.com/anna-schneider/Dad-or-Dud",
-		images: [fortunateMobile, blue1, blue2, circle],
+		images: [orange, blue1, blue2, circle],
 	},
 	{
 		projectTitle: "Fortunately",
@@ -39,7 +42,7 @@ const containerData = [
 		],
 		liveLink: "https://fortunately.netlify.app/",
 		codeLink: "https://github.com/anna-schneider/Fortunately",
-		images: [orange, blue1, blue2, circle],
+		images: [fdesktop, ftablet, fmobile, circle],
 	},
 	{
 		projectTitle: "Black Girls Code",
@@ -91,22 +94,19 @@ function App() {
 							integrity and partnership.
 						</p>
 					</div>
+
 					<div className="contact-container">
 						<h3 className="contact">CONTACT</h3>
 						<Contact />
 					</div>
 				</div>
-				{/* <div className="triangle">
-					<h2 className="portfolio">Portfolio</h2>
-				</div> */}
+
 				<div className="top-level-container">
-					<div className="triangle2">
-						<h2 className="portfolio">Portfolio</h2>
-					</div>
-					{containerData.map((data) => (
-						<Container {...data} />
-					))}
+					<h2 className="portfolio">PORTFOLIO</h2>
 				</div>
+				{containerData.map((data) => (
+					<Container {...data} />
+				))}
 			</div>
 		</div>
 	)

@@ -1,7 +1,7 @@
 .info-container {
 	background-color: #264653;
 	min-height: 750px;
-	margin-top: 50px;
+	margin: 50px 50px 0 50px;
 	padding-top: 15px;
 	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
 		0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
@@ -41,7 +41,8 @@
 
 .detail-container-carousel {
 	width: 70%;
-	margin: 50px 0 0 50px;
+	margin: 50px 50px 0 50px;
+	min-height: 850px;
 }
 
 .description {
@@ -68,20 +69,4 @@
 .made-with {
 	color: azure;
 	margin-top: 50px;
-}
-
-.aws-btn {
-	--slider-height-percentage: 60%;
-	--slider-transition-duration: 770ms;
-	--organic-arrow-thickness: 4px;
-	--organic-arrow-border-radius: 0px;
-	--organic-arrow-height: 40px;
-	--organic-arrow-color: #d5b1af;
-	--control-button-width: 10%;
-	--control-button-height: 25%;
-	--control-button-background: transparent;
-	--control-bullet-color: #fad0ce;
-	--control-bullet-active-color: #d5b1af;
-	--loader-bar-color: #851515;
-	--loader-bar-height: 6px;
 }
