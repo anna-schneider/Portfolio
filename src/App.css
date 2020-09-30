@@ -50,3 +50,17 @@
 	display: flex;
 	justify-content: left;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	.landing {
+		width: fit-content;
+	}
+
+	.brand {
+		font-size: 20px;
+	}
+
+	.profile-contact-container {
+		width: 68%;
+	}
+}
