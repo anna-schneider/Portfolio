@@ -73,11 +73,20 @@
 		font-size: 20px;
 	}
 
-	.profile-contact-container {
-		width: 88%;
+	.profile-contact-container,
+	.top-level-container {
+		width: 90%;
 	}
 
 	.profile-container {
 		margin-left: 0;
+	}
+
+	.typewriter-anime {
+		margin-right: 0;
+	}
+
+	.top-level-container {
+		margin-left: 50px;
 	}
 }

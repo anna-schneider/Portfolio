@@ -83,6 +83,26 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	.info-container {
 		width: 92%;
-		margin: 0 40px;
+		height: 400px;
+		margin: 20px 40px;
+	}
+
+	.tech-btns-container {
+		display: inline-flex;
+		margin-top: 150px;
+	}
+
+	.project-btns {
+		width: 400px;
+		margin-left: 20px;
+	}
+
+	.tech-icons {
+		width: 300px;
+		margin-top: 20px;
+	}
+
+	.description {
+		font-size: 18px;
 	}
 }

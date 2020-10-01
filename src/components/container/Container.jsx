@@ -15,15 +15,17 @@ export default function Container(props) {
 			<div className="detail-container">
 				<div className="detail-container-left">
 					<p className="description">{description}</p>
-					<h3 className="made-with">Made With</h3>
-					<div className="tech-icons">
-						{icons.map((icon) => (
-							<i className={icon + " tech-icon"}></i>
-						))}
-					</div>
-					<div className="project-btns">
-						<Button content="See the Code" link={props.codeLink} />
-						<Button content="See the Live Site" link={props.liveLink} />
+					<div className="tech-btns-container">
+						<h3 className="made-with">Made With</h3>
+						<div className="tech-icons">
+							{icons.map((icon) => (
+								<i className={icon + " tech-icon"}></i>
+							))}
+						</div>
+						<div className="project-btns">
+							<Button content="See the Code" link={props.codeLink} />
+							<Button content="See the Live Site" link={props.liveLink} />
+						</div>
 					</div>
 				</div>
 				<div className="detail-container-carousel">
