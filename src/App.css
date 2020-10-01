@@ -74,6 +74,10 @@
 	}
 
 	.profile-contact-container {
-		width: 78%;
+		width: 88%;
+	}
+
+	.profile-container {
+		margin-left: 0;
 	}
 }

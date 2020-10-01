@@ -1,7 +1,6 @@
 .info-container {
 	background-color: #264653;
 	min-height: 750px;
-	/* margin-top: 50px; */
 	width: 93%;
 	margin: 0 auto;
 	padding-top: 15px;
@@ -83,7 +82,7 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	.info-container {
-		width: 73%;
+		width: 92%;
 		margin: 0 40px;
 	}
 }

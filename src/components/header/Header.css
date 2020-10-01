@@ -58,20 +58,22 @@ header {
 	.header {
 		width: 68%;
 	}
-
-	.info-container {
-		width: 73%;
-		margin: 0 40px;
-	}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	.header {
-		width: 78%;
+		width: 88%;
 	}
 
-	.info-container {
-		width: 85%;
-		margin: 0 40px;
+	.typewriter-anime2 {
+		margin-top: 10px;
+	}
+
+	* {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
 	}
 }
