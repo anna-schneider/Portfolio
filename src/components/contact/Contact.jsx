@@ -25,7 +25,7 @@ export default function Contact(props) {
 
 				<div className="icon-stack2">
 					<a
-						href="https://drive.google.com/file/d/1EMKNUJrdTnEZOw0CpOBttm09AB3QVkSM/view?usp=sharing"
+						href="https://drive.google.com/file/d/1cGgalFFQerT8hJrxZ8u3O1XRS48MdiAF/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

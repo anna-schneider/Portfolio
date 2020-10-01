@@ -61,7 +61,16 @@
 	}
 
 	.profile-contact-container {
-		width: 68%;
+		width: 90%;
+		margin-left: 40px;
+	}
+
+	.fa {
+		margin-right: 15px;
+	}
+
+	.top-level-container {
+		margin-left: 40px;
 	}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
