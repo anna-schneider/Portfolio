@@ -52,6 +52,21 @@ const containerData = [
 		images: [rresponsive, rreview, rcreate, rvote],
 	},
 	{
+		projectTitle: "Fortunately",
+		description:
+			"Bringing the boadwalk to your phone (mobile first, right?), Fortunately is a fortune-telling app built with React and a custom API via AirTable.",
+		icons: [
+			"devicon-javascript-plain colored",
+			"devicon-css3-plain-wordmark colored",
+			"devicon-html5-plain-wordmark colored",
+			"devicon-react-original-wordmark colored",
+			"devicon-git-plain-wordmark colored",
+		],
+		liveLink: "https://fortunately.netlify.app/",
+		codeLink: "https://github.com/anna-schneider/Fortunately",
+		images: [fdesktop, ftablet, fmobile],
+	},
+	{
 		projectTitle: "Dad or Dud?",
 		description:
 			"Knock, knock. Who's there? It's 'Dad or Dud?', the responsive single page application, leveraged a third-party API to provide a gamified dad joke experience",
@@ -66,21 +81,6 @@ const containerData = [
 			"https://pages.git.generalassemb.ly/Anna-Schneider/Project-1-Dad-or-Dud/",
 		codeLink: "https://github.com/anna-schneider/Dad-or-Dud",
 		images: [dhome, dresults1, dresults2, dresults3],
-	},
-	{
-		projectTitle: "Fortunately",
-		description:
-			"Bringing the boadwalk to your phone (mobile first, right?), Fortunately is a fortune-telling app built with React and a custom API via AirTable.",
-		icons: [
-			"devicon-javascript-plain colored",
-			"devicon-css3-plain-wordmark colored",
-			"devicon-html5-plain-wordmark colored",
-			"devicon-react-original-wordmark colored",
-			"devicon-git-plain-wordmark colored",
-		],
-		liveLink: "https://fortunately.netlify.app/",
-		codeLink: "https://github.com/anna-schneider/Fortunately",
-		images: [fdesktop, ftablet, fmobile],
 	},
 ]
 
