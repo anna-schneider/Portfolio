@@ -22,6 +22,36 @@ import rvote from "./assets/images/RMVote.jpg"
 
 const containerData = [
 	{
+		projectTitle: "Black Girls Code",
+		description:
+			"A collaboration with a UX design team, our group of four devs assembled a full-stack web app in alignment to the blueprints from our partners.",
+		icons: [
+			"devicon-mongodb-plain-wordmark colored",
+			"devicon-express-original-wordmark",
+			"devicon-react-original-wordmark colored",
+			"devicon-nodejs-plain-wordmark colored",
+			"devicon-git-plain-wordmark colored",
+		],
+		liveLink: "https://blackgirlscodep3.netlify.app/",
+		codeLink: "https://github.com/anna-schneider/Black-Girls-Code-P3",
+		images: [bhome, bmoney, bfooter, bdonor],
+	},
+	{
+		projectTitle: "Remote Control",
+		description:
+			"Remote Control is a remote viewing party app that aids in household harmony, and staying connected. Friends and family can short list movies, and then rank them to decide a winner. After six days and oceans of coffee, Remote Control was built using Rails, PostgreSQL and React on top of some home-spun CSS and JS.",
+		icons: [
+			"devicon-postgresql-plain-wordmark colored",
+			"devicon-rails-plain-wordmark colored",
+			"devicon-ruby-plain-wordmark colored",
+			"devicon-git-plain-wordmark colored",
+			"devicon-react-original-wordmark colored",
+		],
+		liveLink: "https://remote-control-fullstack.netlify.app/",
+		codeLink: "https://github.com/anna-schneider/Remote-Control",
+		images: [rresponsive, rreview, rcreate, rvote],
+	},
+	{
 		projectTitle: "Dad or Dud?",
 		description:
 			"Knock, knock. Who's there? It's 'Dad or Dud?', the responsive single page application, leveraged a third-party API to provide a gamified dad joke experience",
@@ -51,36 +81,6 @@ const containerData = [
 		liveLink: "https://fortunately.netlify.app/",
 		codeLink: "https://github.com/anna-schneider/Fortunately",
 		images: [fdesktop, ftablet, fmobile],
-	},
-	{
-		projectTitle: "Black Girls Code",
-		description:
-			"A collaboration with a UX design team, our group of four devs assembled a full-stack web app in alignment to the blueprints from our partners.",
-		icons: [
-			"devicon-mongodb-plain-wordmark colored",
-			"devicon-express-original-wordmark",
-			"devicon-react-original-wordmark colored",
-			"devicon-nodejs-plain-wordmark colored",
-			"devicon-git-plain-wordmark colored",
-		],
-		liveLink: "https://blackgirlscodep3.netlify.app/",
-		codeLink: "https://github.com/anna-schneider/Black-Girls-Code-P3",
-		images: [bhome, bmoney, bfooter, bdonor],
-	},
-	{
-		projectTitle: "Remote Control",
-		description:
-			"Remote Control is a remote viewing party app that aids in household harmony, and staying connected. Friends and family can short list movies, and then rank them to decide a winner. After six days and oceans of coffee, Remote Control was built using Rails, PostgreSQL and React on top of some home-spun CSS and JS.",
-		icons: [
-			"devicon-postgresql-plain-wordmark colored",
-			"devicon-rails-plain-wordmark colored",
-			"devicon-ruby-plain-wordmark colored",
-			"devicon-git-plain-wordmark colored",
-			"devicon-react-original-wordmark colored",
-		],
-		liveLink: "https://remote-control-fullstack.netlify.app/",
-		codeLink: "https://github.com/anna-schneider/Remote-Control",
-		images: [rresponsive, rreview, rcreate, rvote],
 	},
 ]
 
