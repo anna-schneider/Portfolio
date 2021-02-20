@@ -67,9 +67,9 @@ const containerData = [
 		images: [fdesktop, ftablet, fmobile],
 	},
 	{
-		projectTitle: "Dad or Dud?",
+		projectTitle: "Guardian News App",
 		description:
-			"Knock, knock. Who's there? It's 'Dad or Dud?', the responsive single page application, leveraged a third-party API to provide a gamified dad joke experience",
+			"No libraries, no frameworks, 100% vanilla JavaScript/CSS news widget",
 		icons: [
 			"devicon-javascript-plain colored",
 			"devicon-css3-plain-wordmark colored",
@@ -77,9 +77,8 @@ const containerData = [
 			"devicon-jquery-plain-wordmark colored",
 			"devicon-git-plain-wordmark colored",
 		],
-		liveLink:
-			"https://pages.git.generalassemb.ly/Anna-Schneider/Project-1-Dad-or-Dud/",
-		codeLink: "https://github.com/anna-schneider/Dad-or-Dud",
+		liveLink: "https://guardian-widget.netlify.app/",
+		codeLink: "https://github.com/anna-schneider/Guardian-Widget/tree/main",
 		images: [dhome, dresults1, dresults2, dresults3],
 	},
 ]
