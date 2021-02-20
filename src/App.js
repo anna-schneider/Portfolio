@@ -12,6 +12,8 @@ import bmoney from "./assets/images/BGCMoney.jpg"
 import bfooter from "./assets/images/BGCFooter.jpg"
 import bdonor from "./assets/images/BGCDonor.jpg"
 import dhome from "./assets/images/DDHome.jpg"
+import gdesktop from "./assets/images/GuardianDsk.png"
+import gmobile from "./assets/images/GuardianMobile.png"
 import dresults1 from "./assets/images/DDResults1.jpg"
 import dresults2 from "./assets/images/DDResults2.jpg"
 import dresults3 from "./assets/images/DDResults3.jpg"
@@ -69,7 +71,7 @@ const containerData = [
 	{
 		projectTitle: "Guardian News App",
 		description:
-			"No libraries, no frameworks, 100% vanilla JavaScript/CSS news widget",
+			"No libraries, no frameworks, 100% vanilla JavaScript/CSS, responsive news widget",
 		icons: [
 			"devicon-javascript-plain colored",
 			"devicon-css3-plain-wordmark colored",
@@ -79,7 +81,7 @@ const containerData = [
 		],
 		liveLink: "https://guardian-widget.netlify.app/",
 		codeLink: "https://github.com/anna-schneider/Guardian-Widget/tree/main",
-		images: [dhome, dresults1, dresults2, dresults3],
+		images: [gdesktop, gmobile],
 	},
 ]
 
