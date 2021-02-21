@@ -47,7 +47,7 @@ const containerData = [
 		],
 		liveLink: "https://remote-control-fullstack.netlify.app/",
 		codeLink: "https://github.com/anna-schneider/Remote-Control",
-		images: [rresponsive, rreview, rcreate, rvote],
+		images: [rreview, rcreate, rresponsive, rvote],
 	},
 	{
 		projectTitle: "Fortunately",
